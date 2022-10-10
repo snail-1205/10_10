@@ -19,4 +19,12 @@ function useFunc(
   return callback(arg1, arg2);
 }
 
-console.log(useFunc(add, 3, 4));
+console.log(useFunc(add, 3, 4)); // 7
+
+/**
+ * 과제
+ *  1. 숫자를 두개 넣으면 더해주는 함수를 타입을 사용해 만들어 보시오
+ *  2. 콜백 함수를 쓰는 함수를 타입을 사용해 만들어 보시오
+ *  3. 함수를 만드는 함수를 타입을 사용해 만들어 보시오
+ *  4. 
+ */
